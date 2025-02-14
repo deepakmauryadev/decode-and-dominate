@@ -1,4 +1,4 @@
-import PlacementPhoto from "../ASSETS/Placement_Web_compressed-800x560 (1).webp";
+import PlacementPhoto from "../assets/Placement_Web_compressed-800x560 (1).webp";
 
 const Placement = () => {
   return (

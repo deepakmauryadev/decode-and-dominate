@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <CardsGroup />
       <Accreditation />
-      <Placement/>
+      <Placement />
       <International />
       <Inspiration />
       <Footer />

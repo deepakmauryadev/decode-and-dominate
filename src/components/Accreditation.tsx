@@ -1,7 +1,7 @@
-import Accdn1 from "../ASSETS/accdn1.webp";
-import Accdn2 from "../ASSETS/accdn2.webp";
-import Accdn3 from "../ASSETS/accdn3.webp";
-import Accdn4 from "../ASSETS/accdn4.webp";
+import Accdn1 from "../assets/accdn1.webp";
+import Accdn2 from "../assets/accdn2.webp";
+import Accdn3 from "../assets/accdn3.webp";
+import Accdn4 from "../assets/accdn4.webp";
 
 const cards = [
   { image: Accdn1 },

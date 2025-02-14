@@ -1,4 +1,4 @@
-import StudentInternational from "../ASSETS/IMG_5408-800x520.jpg";
+import StudentInternational from "../assets/IMG_5408-800x520.jpg";
 
 const International = () => {
   return (

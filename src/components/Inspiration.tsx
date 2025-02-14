@@ -1,4 +1,4 @@
-import AchyutaSamanta from "../ASSETS/Achyuta-Samanta-KIIT-University-1200x661.jpg";
+import AchyutaSamanta from "../assets/Achyuta-Samanta-KIIT-University-1200x661.jpg";
 
 const Inspiration = () => {
   return (

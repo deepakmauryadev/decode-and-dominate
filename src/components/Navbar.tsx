@@ -1,5 +1,5 @@
 import { useState } from "react";
-import KiitLogo from "../ASSETS/KIIT-University-Logo-640.png";
+import KiitLogo from "../assets/KIIT-University-Logo-640.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
