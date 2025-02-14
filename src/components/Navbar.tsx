@@ -1,4 +1,5 @@
 import { useState } from "react";
+import KiitLogo from "../ASSETS/KIIT-Logo-h60.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -7,11 +8,14 @@ const Navbar = () => {
     <nav className="bg-white shadow-md w-full fixed top-0 z-50">
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
         <div className="flex items-center space-x-3">
-          <img src="/logo.png" alt="KIIT Logo" className="h-10" />
-          <h1 className="text-green-600 font-bold text-lg">KALINGA INSTITUTE OF INDUSTRIAL TECHNOLOGY</h1>
+          <img src={KiitLogo} alt="KIIT Logo" className="h-10" />
+          <div className="flex flex-col">
+            <h1 className="text-green-600 font-bold text-sm">KALINGA INSTITUTE OF INDUSTRIAL TECHNOLOGY</h1>
+
+          </div>
         </div>
 
-        <div className="hidden md:flex space-x-6 text-gray-700 font-medium">
+        <div className="hidden md:flex space-x-6 text-gray-700 font-medium text-xs *:hover:underline *:transition-colors *:underline-offset-4">
           <a href="#about" className="hover:text-green-600">ABOUT KIIT</a>
           <a href="#academics" className="hover:text-green-600">ACADEMICS</a>
           <a href="#research" className="hover:text-green-600">RESEARCH</a>
