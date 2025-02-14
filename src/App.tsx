@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Inspiration from "./components/Inspiration";
 import International from "./components/International";
 import Navbar from "./components/Navbar";
+import Placement from "./components/Placement";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <CardsGroup />
       <Accreditation />
+      <Placement/>
       <International />
       <Inspiration />
       <Footer />
