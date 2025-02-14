@@ -1,3 +1,4 @@
+import Accreditation from "./components/Accreditation";
 import CardsGroup from "./components/CardsGroup";
 import Footer from "./components/Footer";
 import Inspiration from "./components/Inspiration";
@@ -10,7 +11,8 @@ function App() {
     <div className="h-full w-full absolute top-0 left-0 flex flex-col">
       <Navbar />
       <CardsGroup />
-      <International/>
+      <Accreditation />
+      <International />
       <Inspiration />
       <Footer />
     </div>
