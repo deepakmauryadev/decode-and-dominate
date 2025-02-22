@@ -1,7 +1,7 @@
 import Online1 from "../assets/online1.jpg";
-import Certificate from "../assets/kcc-Certification2.jpg";
-import Boing from "../assets/boying0.jpg";
-import InternationAdm from "../assets/online2.jpg";
+import Certificate from "../assets/kcc-Certification1.jpg";
+import Boing from "../assets/boying-1.jpg";
+import InternationAdm from "../assets/online1.jpg";
 
 const cards = [
   { image: Online1, },
